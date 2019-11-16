@@ -4,7 +4,6 @@ var yasai2 = 50;
 var yasai3 = 100;
 var yasai4 = 200;
 
-
 // 所持金を入手
 document.getElementById("btn").onclick = function() {
     if (document.getElementById("credit").innerHTML === '') {
@@ -20,7 +19,6 @@ document.getElementById("btn").onclick = function() {
     credit.innerHTML = creditValue + chargeValue;
 }
 
-//
 document.getElementById("btn1").onclick = function() {
     buyVegetable(yasai1);
 }
@@ -47,30 +45,3 @@ function buyVegetable(vegetablePrice) {
 
     credit.innerHTML = credit.innerHTML - vegetablePrice;
 }
-
-
-
-// 在庫数
-// var i = 1 ;
-
-// for( var i = 1; i <= 50; i++ ) {
-
-//     var sum = i * 1;
-
-//     document.getElementById("btn1").onclick = function() {
-//         document.getElementById("yasai1").innerHTML = sum;
-//     }
-
-//     document.getElementById("btn2").onclick = function() {
-//         document.getElementById("yasai2").innerHTML = sum;
-//     }
-
-//     document.getElementById("btn3").onclick = function() {
-//         document.getElementById("yasai3").innerHTML = sum;
-//     }
-
-//     document.getElementById("btn4").onclick = function() {
-//         document.getElementById("yasai4").innerHTML = sum;
-//     }
-
-// }
