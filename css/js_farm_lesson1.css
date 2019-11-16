@@ -1,42 +1,30 @@
 .animal {
+
 }
 
 .bard {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 25%;
+    height: 25%;
+    margin: auto;
 }
 
 .pig {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
+    margin: auto;
 
 }
 
 .cow {
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
+    margin: auto;
 
 }
 
-.weat {
-    width: 200px;
-    height: 200px;
-}
-
-.corn {
-    width: 200px;
-    height: 200px;
-}
-
-.soy {
-    width: 200px;
-    height: 200px;
-}
-
-.tomato {
-    width: 200px;
-    height: 200px;
+.buy {
+    clear: both;
 }
