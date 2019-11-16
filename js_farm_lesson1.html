@@ -8,32 +8,31 @@
     </head>
 
     <body>
-        <input type="text" id="name">
-        <button type="button" id="form-button">入力</button>
-        <div>所持金：<span id="form-text"></span>円</div>
+        <input type="number" id="getmoney">
+        <button type="button" id="btn">入手</button>
+        <div>所持金：<span id="credit"></span>円</div>
         
-        <div class="animal" id="btn">
+        <div class="animal">
             <img src="https://4.bp.blogspot.com/-hBEnxhO8fjc/W8BOGryIf2I/AAAAAAABPVs/TWoScpc8jUonypEy1Fj01n-PrC-9gI5gACLcBGAs/s800/bird_kojukei.png" alt="鳥" class="bard">
             <img src="https://4.bp.blogspot.com/-O1h4L5OvP3U/VWmAawuYD6I/AAAAAAAAtwg/H6lorRZqmjg/s800/animal_kurobuta_pig.png" alt="豚" class="pig">
             <img src="https://2.bp.blogspot.com/-b7uT5EaQca0/WlGngB9g3WI/AAAAAAABJbo/ROuBp-BBuxg3bf75kfuE24AgEC0Qz8U6wCLcBGAs/s800/animal_ushi_aurochs.png" alt="牛" class="cow">
         </div>
     
-        
-        <div class="vegetables">
-            <img src="https://1.bp.blogspot.com/-o7yRDDeXgi0/VGLLONLJqzI/AAAAAAAAovs/ztPMBRtnKQ8/s800/mugi.png" alt="小麦" class="weat">
-            <img src="https://4.bp.blogspot.com/-dicRIara6vg/V6iIdBskkiI/AAAAAAAA9CI/xIHaA-P0oPA4BeAdK99x3HNgd2seFyZrwCLcB/s800/vegetable_corn.png" alt="とうもろこし" class="corn">
-            <img src="https://1.bp.blogspot.com/-IBoABCiNJpI/V6iId6esjGI/AAAAAAAA9CM/Ine7zoStc7keBxkJlcQ-0rjm7OriWwOUgCLcB/s800/vegetable_daizu.png" alt="大豆" class="soy">
-            <img src="https://4.bp.blogspot.com/-FlkEDz3wQSc/Vtw1wrbo6AI/AAAAAAAA4fk/k8tfPNkMvb4/s800/tomato_red.png" alt="トマト" class="tomato">
-        </div>
-
         <div>
-            <button type="button" id="form-button">小麦</button>
-            <button type="button" id="form-button">とうもろこし</button>
-            <button type="button" id="form-button">大豆</button>
-            <button type="button" id="form-button">トマト</button>
+            <button type="button" id="btn1">小麦 ¥10</button>
+            <button type="button" id="btn2">とうもろこし ¥50</button>
+            <button type="button" id="btn3">大豆 ¥100</button>
+            <button type="button" id="btn4">トマト ¥200</button>
         </div>
         
-
+        <div>
+            在庫：
+            小麦<span id="yasai1"></span>
+            とうもろこし <span id="yasai2"></span>
+            大豆<span id="yasai3"></span>
+            トマト<span id="yasai4"></span>
+        </div>
+        
         <script src="js/js_farm_lesson1.js"></script>
     </body>
 
