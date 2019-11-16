@@ -38,6 +38,13 @@ document.getElementById("btn4").onclick = function() {
 }
 
 function buyVegetable(vegetablePrice) {
+
+    var creditValue = parseInt(credit.innerHTML);
+    if (creditValue < vegetablePrice) {
+        alert("所持金が不足しています");
+        return false;
+    }
+
     credit.innerHTML = credit.innerHTML - vegetablePrice;
 }
 
