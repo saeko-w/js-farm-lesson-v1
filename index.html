@@ -10,28 +10,51 @@
     <body>
         <input type="number" id="charge-input">
         <button type="button" id="btn">入手</button>
-        <div>所持金：<span id="credit">0</span>円</div>
-        
-        <div class="animal">
-            <img src="https://4.bp.blogspot.com/-hBEnxhO8fjc/W8BOGryIf2I/AAAAAAABPVs/TWoScpc8jUonypEy1Fj01n-PrC-9gI5gACLcBGAs/s800/bird_kojukei.png" alt="鳥" class="bard">
-            <img src="https://4.bp.blogspot.com/-O1h4L5OvP3U/VWmAawuYD6I/AAAAAAAAtwg/H6lorRZqmjg/s800/animal_kurobuta_pig.png" alt="豚" class="pig">
-            <img src="https://2.bp.blogspot.com/-b7uT5EaQca0/WlGngB9g3WI/AAAAAAABJbo/ROuBp-BBuxg3bf75kfuE24AgEC0Qz8U6wCLcBGAs/s800/animal_ushi_aurochs.png" alt="牛" class="cow">
-        </div>
-    
+        <p>所持金：<span id="credit">0</span>円</p>
+
         <div class="buy">
             <button type="button" id="btn1">小麦 ¥10</button>
             <button type="button" id="btn2">とうもろこし ¥50</button>
             <button type="button" id="btn3">大豆 ¥100</button>
             <button type="button" id="btn4">トマト ¥200</button>
         </div>
-        
-        <!-- <div>
-            在庫：
-            小麦<span id="yasai1"></span>
-            とうもろこし <span id="yasai2"></span>
-            大豆<span id="yasai3"></span>
-            トマト<span id="yasai4"></span>
-        </div> -->
+
+        <div class="animals">
+            <img src="https://4.bp.blogspot.com/-hBEnxhO8fjc/W8BOGryIf2I/AAAAAAABPVs/TWoScpc8jUonypEy1Fj01n-PrC-9gI5gACLcBGAs/s800/bird_kojukei.png" alt="鳥" class="bard">
+            <img src="https://4.bp.blogspot.com/-O1h4L5OvP3U/VWmAawuYD6I/AAAAAAAAtwg/H6lorRZqmjg/s800/animal_kurobuta_pig.png" alt="豚" class="pig">
+            <img src="https://2.bp.blogspot.com/-b7uT5EaQca0/WlGngB9g3WI/AAAAAAABJbo/ROuBp-BBuxg3bf75kfuE24AgEC0Qz8U6wCLcBGAs/s800/animal_ushi_aurochs.png" alt="牛" class="cow">
+        </div>
+
+        <div class="text">
+                <span id="bard" class="text1">お腹すいた！</span>
+                <span id="pig" class="text2">お腹すいた！</span>
+                <span id="cow" class="text3">お腹すいた！</span>
+        </div>
+
+        <div>
+            <select name="animals" id="choiceAnimal">
+                <option id="bard">にわとり</option>
+                <option id="pig">豚</option>
+                <option id="cow">牛</option>
+            </select>
+
+            <select name="yasai" id="coiceVegetable">
+                <option id="wheat">小麦</option>
+                <option id="corn">とうもろこし</option>
+                <option id="soy">大豆</option>
+                <option id="tomato">トマト</option>
+            </select>
+
+            <button type="button" id="button5">餌をあげる</button>
+        </div>
+
+        <div>
+            <div>在庫</div>
+            <div>小麦:<span id="feed1">0</span>個</div>
+            <div>とうもろこし:<span id="feed2">0</span>個</div>
+            <div>大豆:<span id="feed3">0</span>個</div>
+            <div>トマト:<span id="feed4">0</span>個</div>
+        </div>
         
         <script src="js/js_farm_lesson1.js"></script>
     </body>
